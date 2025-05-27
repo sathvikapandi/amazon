@@ -16,6 +16,7 @@ import Mobiles from './components/Mobiles';
 import More from './components/More';
 import Prime from './components/Prime';
 import Travel from './components/Travel';
+import List from './components/List';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path='Appliances' element={<Appliances a1={a} a2={b}/>}></Route>
           <Route path='Furniture' element={<Furniture/>}></Route>
           <Route path='More' element={<More/>}></Route>
+          <Route path='List' element={<List/>}></Route>
 
 
 

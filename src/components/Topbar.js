@@ -18,6 +18,7 @@ export default function Topbar() {
         <li><Link to='Appliances'>Appliances</Link></li>
         <li><Link to='Furniture'>Furniture</Link></li>
         <li><Link to='More'>More</Link></li>
+        <li><Link to='List'>List</Link></li>
     </ul>
    </div>
    </>
