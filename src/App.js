@@ -22,6 +22,7 @@ import List from './components/List';
 function App() {
     const a='Welcome to this page'
     const b='Thanks for Visiting'
+    const c="This page belongs to AMAZON"
 
 
 
@@ -32,9 +33,9 @@ function App() {
         <BrowserRouter>
          <Topbar/>
         <Routes>
-          <Route path='*' element={ <Error a1={a} a2={b}/> }></Route>
+          <Route path='*' element={ <Error a1={a} a2={b} a3={c}/> }></Route>
           <Route path='/' element={ <Content/>}></Route>
-          <Route path='/Beauty' element={ <Beauty a1={a} a2={b}/>}></Route>
+          <Route path='/Beauty' element={ <Beauty a1={a} a2={b} a3={c}/>}></Route>
           <Route path="Home" element={<Home/>}></Route>
           <Route path='Travel' element={<Travel/>}></Route>
           <Route path='Deals' element={<Deals/>}></Route>
@@ -43,7 +44,7 @@ function App() {
           <Route path='Prime' element={<Prime/>}></Route>
           <Route path='Electronics' element={<Electronics/>}></Route>
           <Route path='Groceries' element={<Groceries/>}></Route>
-          <Route path='Appliances' element={<Appliances a1={a} a2={b}/>}></Route>
+          <Route path='Appliances' element={<Appliances a1={a} a2={b} a3={c}/>}></Route>
           <Route path='Furniture' element={<Furniture/>}></Route>
           <Route path='More' element={<More/>}></Route>
           <Route path='List' element={<List/>}></Route>

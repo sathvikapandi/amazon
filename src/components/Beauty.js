@@ -7,6 +7,7 @@ export default function Beauty(props) {
             <h1>YOU ARE IN BEAUTY SECTION</h1>
             <h3>{props.a1}</h3>
    <h3>{props.a2}</h3>
+   <h3>{props.a3}</h3>
     </div>
     </>
 
